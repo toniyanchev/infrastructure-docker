@@ -2,6 +2,7 @@
 cd "$(dirname "$0")"
 
 source ../.env
+source ../.env.local
 
 # This overrides the root .env file
 source .env
